@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+a {
+  margin: 13px 5px 0;
+  padding: 6px 10px;
+  background-color: #fff;
+  color: #282c34;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover,
+a:focus {
+  background-color: #1971b9 !important;
+  color: #fff !important;
+}
