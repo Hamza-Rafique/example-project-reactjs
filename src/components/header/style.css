@@ -11,8 +11,10 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+  position: fixed;
   top: 0;
+  right: 0;
+  left: 0;
   z-index: 20;
 }
 
@@ -35,7 +37,7 @@
 }
 
 .nav-logo {
-  color: #f5b921;
+  color: #F77909;
   align-items: center;
   margin-left: 20px;
   cursor: pointer;
