@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import NavBar from "./components/header/header";
 import Hero from "./components/herosection/hero";
+import Footer from "./components/footer/footer.js";
 
-//Pages
 const Home = () => {
   return (
     <div>
@@ -12,10 +13,10 @@ const Home = () => {
   );
 };
 
-const About = () => {
+const Product = () => {
   return (
     <div>
-      <h1>About</h1>
+      <h1>Product</h1>
     </div>
   );
 };
@@ -39,19 +40,15 @@ function App() {
     <>
       <BrowserRouter>
         <NavBar />
-        <div className="pages">
+        <Hero />
           <Routes>
             <Route exact='true' path="/" component={Home} />
-            <Route path="/about" component={About} />
+            <Route path="/product" component={Product} />
             <Route path="/blog" component={Blog} />
             <Route path="/contact" component={Contact} />
           </Routes>
-        </div>
+        <Footer />
       </BrowserRouter>
-      <Hero />
-      <section>
-        products
-      </section>
     </>
   );
 }
