@@ -28,14 +28,17 @@
   margin-top: 40px;
 }
 .link {
-  margin: 13px 5px;
-  padding: 6px 10px;
+  margin: 8px;
+  padding: 10px;
   background-color: #f77909;
   color: white;
-  font-size: 22px;
+  font-size: 18px;
   text-decoration: none;
   border-radius: 5px;
   display: inline-block;
+  font-weight: 600;
+  width: 145px;
+  transition: 0.3s ease;
 }
 
 .link:hover,
