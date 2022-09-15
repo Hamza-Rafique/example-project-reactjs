@@ -1,0 +1,48 @@
+.hero-section {
+  background-image: url("../../images//201113103030-best-winter-gloves-2020-lead.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  height: calc(100vh - 80px);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-section {
+  z-index: 1;
+}
+.hero-section:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  content: "";
+}
+.links {
+  margin-top: 40px;
+}
+.link {
+  margin: 13px 5px;
+  padding: 6px 10px;
+  background-color: #f77909;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.link:hover,
+.link:focus {
+  background-color: #10842b !important;
+  color: white !important;
+}
+.fa {
+  margin-left: 5px;
+}
