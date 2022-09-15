@@ -46,6 +46,7 @@ export default function NavBar() {
                   className="nav-links"
                   onClick={click ? handleClick : null}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Catalog
                 </a>
