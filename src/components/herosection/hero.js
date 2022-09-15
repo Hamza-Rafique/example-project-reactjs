@@ -17,7 +17,7 @@ const Hero = () => {
               rel="noreferrer"
             >
               WhatsApp
-              <li className="fa fa-whatsapp"></li>
+              <span className="fa fa-whatsapp"></span>
             </a>
 
             <a
@@ -27,7 +27,7 @@ const Hero = () => {
               rel="noreferrer"
             >
               Email
-              <li className="fa fa-envelope"></li>
+              <span className="fa fa-envelope"></span>
             </a>
             <a
               className="link"
@@ -36,7 +36,7 @@ const Hero = () => {
               rel="noreferrer"
             >
               Instagram
-              <li className="fa fa-instagram"></li>
+              <i class="fa-brands fa-square-instagram"></i>
             </a>
             <a
               className="link"
@@ -45,7 +45,7 @@ const Hero = () => {
               rel="noreferrer"
             >
               Facebook
-              <li className="fa fa-facebook"></li>
+              <i class="fa-brands fa-facebook"></i>
             </a>
             <a
               className="link"
@@ -54,7 +54,7 @@ const Hero = () => {
               rel="noreferrer"
             >
               linkedin
-              <li className="fa fa-linkedin"></li>
+              <span className="fa fa-linkedin"></span>
             </a>
           </div>
         </div>
