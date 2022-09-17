@@ -4,6 +4,7 @@ import "./App.css";
 import NavBar from "./components/header/header";
 import Hero from "./components/herosection/hero";
 import Footer from "./components/footer/footer.js";
+import Product from "./components/product/product";
 
 const Home = () => {
   return (
@@ -13,13 +14,6 @@ const Home = () => {
   );
 };
 
-const Product = () => {
-  return (
-    <div>
-      <h1>Product</h1>
-    </div>
-  );
-};
 const Blog = () => {
   return (
     <div>
@@ -47,6 +41,7 @@ function App() {
             <Route path="/blog" component={Blog} />
             <Route path="/contact" component={Contact} />
           </Routes>
+          <Product />
         <Footer />
       </BrowserRouter>
     </>

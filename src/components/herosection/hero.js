@@ -36,7 +36,7 @@ const Hero = () => {
               rel="noreferrer"
             >
               Instagram
-              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa fa-instagram"></i>
             </a>
             <a
               className="link"
@@ -45,7 +45,7 @@ const Hero = () => {
               rel="noreferrer"
             >
               Facebook
-              <i class="fa-brands fa-facebook"></i>
+              <i class="fa fa-facebook"></i>
             </a>
             <a
               className="link"
