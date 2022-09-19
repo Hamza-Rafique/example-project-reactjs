@@ -2,24 +2,14 @@ import { Col, Button, Row } from "react-bootstrap";
 import { assemblyGloves } from "../../gloves/data";
 import "./style.css";
 
-console.log(assemblyGloves);
 function Card(props) {
   return <div className="card">{props.children}</div>;
 }
 function Image(props) {
   return (
     <div className="card-image">
-      <img src={props.src} />
-      {props.icon && <Fab icon={props.icon} />}
+      <img src={props.src} alt={props.alt} />
     </div>
-  );
-}
-
-function Fab(props) {
-  return (
-    <a className="btn-floating btn-large halfway-fab red">
-      <span className={props.icon} aria-hidden="true"></span>
-    </a>
   );
 }
 
