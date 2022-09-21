@@ -5,6 +5,7 @@ import NavBar from "./components/header/header";
 import Hero from "./components/herosection/hero";
 import Footer from "./components/footer/footer.js";
 import Product from "./components/product/product";
+// import ChoiceUs from "./components/whychoiceus/choiceus";
 
 const Home = () => {
   return (
@@ -41,6 +42,7 @@ function App() {
             <Route path="/blog" component={Blog} />
             <Route path="/contact" component={Contact} />
           </Routes>
+          {/* <ChoiceUs /> */}
           <Product />
         <Footer />
       </BrowserRouter>

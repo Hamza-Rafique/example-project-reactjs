@@ -12,7 +12,6 @@ function Image(props) {
     </div>
   );
 }
-
 function Content(props) {
   return (
     <div className="card-content">
@@ -20,32 +19,38 @@ function Content(props) {
       <Description text={props.description} />
     </div>
   );
-}
+};
 
 function Title(props) {
   return (
     <div className="title">
-      <span className="card-title">{props.text}</span>
-      <Button>Oder Now</Button>
+      <span className="card-title">
+        <b>Art No#:</b> {props.text}
+      </span>
     </div>
   );
 }
 
 function Description(props) {
   return (
-    <p className="card-description">
-      <b>Description:</b>
-      {props.text}
-    </p>
+    <>
+      <p className="card-description">
+        <b>Description: </b>
+        {props.text}.
+      </p>
+      <Button onClick="https://wa.me/p/5741853515836118/923107242237">
+        Order Now
+      </Button>
+    </>
   );
 }
 
-export const Hello = () => {
+export const ProductCard = () => {
   return (
     <Row>
       {assemblyGloves.map((Assembly) => {
         return (
-          <Col className="m-4" key={Assembly.id} sx={3} sm={3}>
+          <Col key={Assembly.id} md={3}>
             <Card>
               <Image src={Assembly.img} alt={Assembly.ArtNo} />
               <Content
