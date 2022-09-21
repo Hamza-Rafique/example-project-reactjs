@@ -1,0 +1,62 @@
+#czservicecmsblock {
+  float: left;
+  width: 100%;
+  padding: 70px 0 30px;
+  position: relative;
+}
+#czservicecmsblock .service_container {
+  color: #fff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px auto;
+}
+#czservicecmsblock .service_container .service-area {
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+#czservicecmsblock .service_container .service-area .service-third {
+  float: left;
+  width: 25%;
+  line-height: 20px;
+  color: #333333;
+  padding: 0px 20px 0px 20px;
+  position: relative;
+  text-align: center;
+}
+#czservicecmsblock
+  .service_container
+  .service-area
+  .service-third.service1
+  .icon1 {
+  background-position: center 19px;
+}
+#czservicecmsblock
+  .service_container
+  .service-area
+  .service-third
+  .service-icon {
+  background: #f5f5f5 url("../../images//service-icon.png") no-repeat scroll;
+  float: none;
+  display: inline-block;
+  margin-top: 0px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#czservicecmsblock
+  .service_container
+  .service-area
+  .service-third
+  .service-content {
+  text-align: center;
+  margin-top: 10px;
+}
