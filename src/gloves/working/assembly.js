@@ -1,18 +1,18 @@
-import ss_0_319 from "../images/Work & Safety Gloves /Assembly Gloves/ss-0-319_pimg1.jpg";
-import ss_0_321 from "../images/Work & Safety Gloves /Assembly Gloves/ss-0-321-red_pimg1.jpg";
-import ss_0_983 from "../images/Work & Safety Gloves /Assembly Gloves/ss-0-983_pimg1.jpg";
-import ss_6_07 from "../images/Work & Safety Gloves /Assembly Gloves/ss-6-07_pimg1.jpg";
-import ss_6_248 from "../images/Work & Safety Gloves /Assembly Gloves/ss-6-248_pimg1.jpg";
-import ss_6_2049 from "../images/Work & Safety Gloves /Assembly Gloves/ss-6-2049_pimg1.jpg";
-import ss_6_4031 from "../images/Work & Safety Gloves /Assembly Gloves/ss-6-4031_pimg1.jpg";
-import ss_6_5000 from "../images/Work & Safety Gloves /Assembly Gloves/ss-6-5000_pimg1.jpg";
-import ss_7_316 from "../images/Work & Safety Gloves /Assembly Gloves/ss-7-316_pimg1.jpg";
-import ss_7_317 from "../images/Work & Safety Gloves /Assembly Gloves/ss-7-317_pimg1.jpg";
-import ss_7_319 from "../images/Work & Safety Gloves /Assembly Gloves/ss-7-319_pimg1.jpg";
-// import ss_7_322 from "../images/Work & Safety Gloves /Assembly Gloves/ss-7-322_pimg1.jpg";
-// import ss_7_323 from "../images/Work & Safety Gloves /Assembly Gloves/ss-7-323_pimg1.jpg";
-// import ss_7_324 from "../images/Work & Safety Gloves /Assembly Gloves/ss-7-324_pimg1.jpg";
-// import ss_7_325 from "../images/Work & Safety Gloves /Assembly Gloves/ss-7-325_pimg1.jpg";
+import ss_0_319 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-0-319_pimg1.jpg";
+import ss_0_321 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-0-321-red_pimg1.jpg";
+import ss_0_983 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-0-983_pimg1.jpg";
+import ss_6_07 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-6-07_pimg1.jpg";
+import ss_6_248 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-6-248_pimg1.jpg";
+import ss_6_2049 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-6-2049_pimg1.jpg";
+import ss_6_4031 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-6-4031_pimg1.jpg";
+import ss_6_5000 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-6-5000_pimg1.jpg";
+import ss_7_316 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-7-316_pimg1.jpg";
+import ss_7_317 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-7-317_pimg1.jpg";
+import ss_7_319 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-7-319_pimg1.jpg";
+import ss_7_322 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-7-322_pimg1.jpg";
+import ss_7_323 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-7-323_pimg1.jpg";
+import ss_7_324 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-7-324_pimg1.jpg";
+import ss_7_325 from "../../images/Work & Safety Gloves /Assembly Gloves/ss-7-325_pimg1.jpg";
 
 export const assemblyGloves = [
   {
@@ -111,36 +111,36 @@ export const assemblyGloves = [
     Description:
       "Goat Leather Palm & Back Polyester Spandex Palm 3M Tap Back Elastic at Wrist Polyester Binding Cuff",
   },
-  // {
-  //   id: 13,
-  //   name: "Assembly Gloves",
-  //   ArtNo: "ss_7_322",
-  //   img: ss_7_322,
-  //   Description:
-  //     "Goat Leather Palm & Back Polyester Spandex Palm 3M Tap Back Elastic at Wrist Polyester Binding Cuff",
-  // },
-  // {
-  //   id: 14,
-  //   name: "Assembly Gloves",
-  //   ArtNo: "ss_7_323",
-  //   img: ss_7_323,
-  //   Description:
-  //     "Made of Goat Leather with Poly Spandex back and velcro closure",
-  // },
-  // {
-  //   id: 15,
-  //   name: "Assembly Gloves",
-  //   ArtNo: "ss_7_324",
-  //   img: ss_7_324,
-  //   Description:
-  //     "Made of Goat Leather with Poly Spandex at back and thinsulate lining",
-  // },
-  // {
-  //   id: 16,
-  //   name: "Assembly Gloves",
-  //   ArtNo: "ss_7_325",
-  //   img: ss_7_325,
-  //   Description:
-  //     "Made of Goat Leather, Polyspandex back, s[pecially designed for Winter protection",
-  // },
+  {
+    id: 13,
+    name: "Assembly Gloves",
+    ArtNo: "ss_7_322",
+    img: ss_7_322,
+    Description:
+      "Goat Leather Palm & Back Polyester Spandex Palm 3M Tap Back Elastic at Wrist Polyester Binding Cuff",
+  },
+  {
+    id: 14,
+    name: "Assembly Gloves",
+    ArtNo: "ss_7_323",
+    img: ss_7_323,
+    Description:
+      "Made of Goat Leather with Poly Spandex back and velcro closure",
+  },
+  {
+    id: 15,
+    name: "Assembly Gloves",
+    ArtNo: "ss_7_324",
+    img: ss_7_324,
+    Description:
+      "Made of Goat Leather with Poly Spandex at back and thinsulate lining",
+  },
+  {
+    id: 16,
+    name: "Assembly Gloves",
+    ArtNo: "ss_7_325",
+    img: ss_7_325,
+    Description:
+      "Made of Goat Leather, Polyspandex back, s[pecially designed for Winter protection",
+  },
 ];
