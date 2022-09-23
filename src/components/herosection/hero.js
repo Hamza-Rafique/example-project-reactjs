@@ -6,8 +6,9 @@ const Hero = () => {
     <>
       <div className="hero-section">
         <div className="text-section">
-          <h1>Hey! Visiter</h1>
-          <h2>We have latest Gloves product for you.</h2>
+          <h1>Hey! There..</h1>
+          <h2>Are you looking for A+ original leather gloves?</h2>
+          <h2>if yes! you are on the right place we are provider 100% original Leather gloves our cu</h2>
           <h3>Please DM and Shop Now.</h3>
           <div className="links">
             <a
@@ -45,7 +46,7 @@ const Hero = () => {
               rel="noreferrer"
             >
               Facebook
-              <i className="fa fa-facebook"></i>
+              <i class="fa fa-facebook"></i>
             </a>
             <a
               className="link"

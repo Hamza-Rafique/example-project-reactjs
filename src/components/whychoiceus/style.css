@@ -1,62 +1,64 @@
-#czservicecmsblock {
-  float: left;
-  width: 100%;
-  padding: 70px 0 30px;
-  position: relative;
+
+.choose {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
-#czservicecmsblock .service_container {
-  color: #fff;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin: 0px auto;
-}
-#czservicecmsblock .service_container .service-area {
-  padding: 0;
-  float: left;
-  width: 100%;
-}
-#czservicecmsblock .service_container .service-area .service-third {
-  float: left;
-  width: 25%;
-  line-height: 20px;
-  color: #333333;
-  padding: 0px 20px 0px 20px;
-  position: relative;
+.choose-us {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+  transition: 0.3s ease;
 }
-#czservicecmsblock
-  .service_container
-  .service-area
-  .service-third.service1
-  .icon1 {
-  background-position: center 19px;
-}
-#czservicecmsblock
-  .service_container
-  .service-area
-  .service-third
-  .service-icon {
-  background: #f5f5f5 url("../../images//service-icon.png") no-repeat scroll;
-  float: none;
-  display: inline-block;
-  margin-top: 0px;
-  height: 70px;
-  width: 70px;
+.img-tag {
+  background: #f5f5f5;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
-#czservicecmsblock
-  .service_container
-  .service-area
-  .service-third
-  .service-content {
-  text-align: center;
-  margin-top: 10px;
+.img-tag i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 0;
+  font-size: 30px;
 }
+.img-one {
+  transition: 0.3s ease;
+}
+.img-two {
+  top: 120% !important;
+  color: #fff;
+  transition: 0.3s ease;
+}
+.choose-us:hover .img-tag {
+  background: #f77909;
+}
+.choose-us:hover .img-one {
+  top: -20%;
+}
+.choose-us:hover .img-two {
+  top: 50% !important;
+}
+.service-heading {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+.choose-us:hover .text-tag .service-heading {
+  color: #f77909;
+}
+.text-tag .service-heading {
+  color: #000;
+}
+
