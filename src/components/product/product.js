@@ -7,12 +7,11 @@ import "./style.css";
 const Product = () => {
   return (
     <>
-      <MDBContainer>
-        <h1 className="my-4">Click below to Check our Gloves Products.</h1>
+      <MDBContainer id="products">
+        <h1 className="my-4 box-heading">Our Products</h1>
       </MDBContainer>
       <ProductMenu />
       <MDBContainer>
-        <h2 className="mt-4 mb-4 ml-4"> Top Working favorite Products</h2>
         <ProductCard />
       </MDBContainer>
     </>

@@ -1,3 +1,28 @@
 .navbar{
     position: relative !important;
 }
+ .box-heading {
+    border: medium none;
+    display: inline-block;
+    width: auto;
+    margin: 0 0 15px 0;
+    padding: 0 0px 15px 0;
+    color: #282828;
+    position: relative;
+    text-align: center;
+    font: 600 32px/35px 'Poppins', sans-serif;
+    text-transform: uppercase !important;
+    letter-spacing: 0.2px;
+ }
+ .box-heading:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 2px;
+    background: #f77909;
+}

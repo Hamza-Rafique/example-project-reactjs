@@ -1,46 +1,62 @@
 import React from "react";
-import './style.css'
+import "./style.css";
 
 const ChoiceUs = () => {
   return (
     <>
-      <div id="czservicecmsblock">
-        <div className="service_container container">
-          <div className="service-area">
-            <div className="service-third service1">
-              <div className="service-icon icon1"></div>
-              <div className="service-content">
-                <div className="service-heading">Free Shipping</div>
-                <div className="service-description">
-                  There are many variations of pass
-                </div>
+      <div className="choose">
+        <div className="choose-us">
+          <div className="img-tag">
+            <i className="fa fa-solid fa-truck img-one"></i>
+            <i className="fa fa-solid fa-truck img-two"></i>
+          </div>
+          <div className="text-tag">
+            <div className="service-content">
+              <div className="service-heading">Free Shipping</div>
+              <div className="service-description">
+                There are many variations of pass
               </div>
             </div>
-            <div className="service-third service2">
-              <div className="service-icon icon2"></div>
-              <div className="service-content">
-                <div className="service-heading">Order Online</div>
-                <div className="service-description">
-                  There are many variations of pass
-                </div>
+          </div>
+        </div>
+        <div className="choose-us">
+          <div className="img-tag">
+            <i className="fa fa-solid fa-phone img-one"></i>
+            <i className="fa fa-solid fa-phone img-two"></i>
+          </div>
+          <div className="text-tag">
+            <div className="service-content">
+              <div className="service-heading">Order Online</div>
+              <div className="service-description">
+                There are many variations of pass
               </div>
             </div>
-            <div className="service-third service3">
-              <div className="service-icon icon3"></div>
-              <div className="service-content">
-                <div className="service-heading">Shop And Save</div>
-                <div className="service-description">
-                  There are many variations of pass
-                </div>
+          </div>
+        </div>
+        <div className="choose-us">
+          <div className="img-tag">
+            <i className="fa fa-solid fa-save img-one"></i>
+            <i className="fa fa-solid fa-save img-two"></i>
+          </div>
+          <div className="text-tag">
+            <div className="service-content">
+              <div className="service-heading">Shop And Save</div>
+              <div className="service-description">
+                There are many variations of pass
               </div>
             </div>
-            <div className="service-third service4">
-              <div className="service-icon icon4"></div>
-              <div className="service-content">
-                <div className="service-heading">Safe Shopping</div>
-                <div className="service-description">
-                  There are many variations of pass
-                </div>
+          </div>
+        </div>
+        <div className="choose-us">
+          <div className="img-tag">
+            <i className="fa fa-solid fa-cart-plus img-one"></i>
+            <i className="fa fa-solid fa-cart-plus img-two"></i>
+          </div>
+          <div className="text-tag">
+            <div className="service-content">
+              <div className="service-heading">Safe Shopping</div>
+              <div className="service-description">
+                There are many variations of pass
               </div>
             </div>
           </div>

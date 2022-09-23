@@ -1,6 +1,5 @@
-import { MDBContainer } from "mdb-react-ui-kit";
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { MDBContainer } from "mdb-react-ui-kit";
 import logo from "../../images/logo-01.png";
 import "./style.css";
 
@@ -15,29 +14,29 @@ export default function NavBar() {
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <MDBContainer>
           <div className="nav-container">
-            <NavLink exact to="/" className="nav-logo">
+            <a exact href="/" className="nav-logo">
               <img src={logo} alt="vicky impex" width="150" height="65" />
-            </NavLink>
+            </a>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <NavLink
-                  to="/"
+                <a
+                  href="/"
                   activeclassname="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
                 >
                   Home
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
-                <NavLink
-                  to="/product"
+                <a
+                  href="products"
                   activeclassname="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
                 >
                   Product
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
                 <a
@@ -52,24 +51,24 @@ export default function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <NavLink
-                  to="/design"
+                <a
+                  href="/design"
                   activeclassname="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
                 >
                   Custom Design
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item">
-                <NavLink
-                  to="/contact"
+                <a
+                  href="/contact"
                   activeclassname="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
                 >
                   Contact Us
-                </NavLink>
+                </a>
               </li>
             </ul>
             <div className="nav-icon" onClick={handleClick}>

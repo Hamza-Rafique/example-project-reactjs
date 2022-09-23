@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Col, Button, Row } from "react-bootstrap";
 import { assemblyGloves } from "../../gloves/data";
 import "./style.css";
@@ -46,9 +47,11 @@ function Description(props) {
 }
 
 export const ProductCard = () => {
+  const [state, setState] = useState(assemblyGloves)
+  console.log(setState)
   return (
     <Row>
-      {assemblyGloves.map((Assembly) => {
+      {state.map((Assembly) => {
         return (
           <Col key={Assembly.id} md={3}>
             <Card>
