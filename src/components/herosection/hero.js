@@ -8,7 +8,12 @@ const Hero = () => {
         <div className="text-section">
           <h1>Hey! There..</h1>
           <h2>Are you looking for A+ original leather gloves?</h2>
-          <h2>if yes! you are on the right place we are provider 100% original Leather gloves our cu</h2>
+          <h2>
+            if yes! you are on the right place we are provider 100% original
+            Leather gloves.
+          </h2>
+          <h2>our client is 92% happy with us.</h2>
+
           <h3>Please DM and Shop Now.</h3>
           <div className="links">
             <a
