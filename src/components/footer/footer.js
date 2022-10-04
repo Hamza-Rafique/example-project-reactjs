@@ -6,6 +6,8 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
+import footerlogo from '../../images/logo-01.png'
+import './style.css'
 
 export default function Footer() {
   return (
@@ -55,7 +57,7 @@ export default function Footer() {
         <MDBContainer className="text-center text-md-start mt-5">
           <MDBRow className="mt-3">
             <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Vicky Impex</h6>
+              <img  src={footerlogo} alt="Vicky Impex Gloves" with='50' height='30' className="mb-4" />
               <p>
                 We are Manufacturer excellent quality Baseball Batting Gloves,
                 Softball Batting Gloves, Golf Gloves, Polo Gloves, Pole Dancing

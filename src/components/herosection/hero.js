@@ -7,14 +7,14 @@ const Hero = () => {
       <div className="hero-section">
         <div className="text-section">
           <h1>Hey! There..</h1>
-          <h2>Are you looking for A+ original leather gloves?</h2>
-          <h2>
+          <h3>Are you looking for A+ original leather gloves?</h3>
+          <p>
             if yes! you are on the right place we are provider 100% original
             Leather gloves.
-          </h2>
-          <h2>our client is 92% happy with us.</h2>
+          </p>
+          <p>our client is 92% happy with us.</p>
 
-          <h3>Please DM and Shop Now.</h3>
+          <p>Please DM and Shop Now.</p>
           <div className="links">
             <a
               className="link"

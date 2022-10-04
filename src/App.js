@@ -6,6 +6,7 @@ import Hero from "./components/herosection/hero";
 import Footer from "./components/footer/footer.js";
 import Product from "./components/product/product";
 import ChoiceUs from "./components/whychoiceus/choiceus";
+import CustomDesign from './components/customdesign/custom';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <ChoiceUs />
         <Product />
+        <CustomDesign />
         <Footer />
     </>
   );

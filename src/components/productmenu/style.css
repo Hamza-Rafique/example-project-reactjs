@@ -4,3 +4,16 @@
 .navbar {
   box-shadow: none !important;
 }
+.navbar-light{
+  background-color: #f6fafa
+}
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  justify-content: center !important;
+}
+.nav-link {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
