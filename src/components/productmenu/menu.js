@@ -6,9 +6,9 @@ import "./style.css";
 
 function ProductMenu() {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" id="products">
       <Container>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown

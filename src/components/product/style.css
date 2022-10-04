@@ -5,7 +5,8 @@
     border: medium none;
     display: inline-block;
     width: auto;
-    margin: 0 0 15px 0;
+    margin-top:25px;
+    margin-bottom: 20px;
     padding: 0 0px 15px 0;
     color: #282828;
     position: relative;
@@ -21,7 +22,6 @@
     right: 0;
     top: auto;
     bottom: 0;
-    margin: 0 auto;
     width: 100px;
     height: 2px;
     background: #f77909;

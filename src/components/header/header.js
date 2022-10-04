@@ -11,7 +11,7 @@ export default function NavBar() {
   return (
     <>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
-      <nav className="navbar" onClick={(e) => e.stopPropagation()}>
+      <nav className="navbar-header" onClick={(e) => e.stopPropagation()}>
         <MDBContainer>
           <div className="nav-container">
             <a exact href="/" className="nav-logo">
@@ -20,7 +20,7 @@ export default function NavBar() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <a
-                  href="/"
+                  href="#home"
                   activeclassname="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
@@ -30,7 +30,8 @@ export default function NavBar() {
               </li>
               <li className="nav-item">
                 <a
-                  href="products"
+                  
+                  href="#products"
                   activeclassname="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
@@ -52,7 +53,7 @@ export default function NavBar() {
               </li>
               <li className="nav-item">
                 <a
-                  href="/design"
+                  href="#custom"
                   activeclassname="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
